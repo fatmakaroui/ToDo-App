@@ -1,0 +1,19 @@
+.containerTesk{
+    border: 1px solid gray;
+    width: 70vw;
+    padding: 5px;
+}
+
+.bottomTask{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.topTask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -6,9 +6,12 @@ import '../styles/header.scss'
 const Header = () => {
 
 return(
+    <div>
     <div className='header'>
          <img src={Logo} alt="Steps" className='logo'/>
-         <h4>header</h4>
+         <p className='title'>Test ToDo Steps</p>
+    </div>
+    <hr/>
     </div>
 )
 

@@ -1,0 +1,35 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000099;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    margin-top: -161px;
+  
+}
+
+.add_form{
+    height: 50vh;
+    width:50vw;
+   padding:30px;
+    border:1px solid white;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .title{
+        font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+    }
+    .error{
+        color: red;
+    }
+
+}

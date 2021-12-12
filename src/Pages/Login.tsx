@@ -39,7 +39,7 @@ const Login = () => {
            <Input id='email' name='email' placeholder='Adresse e-mail' type='text'/>
            <Input id='password' name='password' placeholder='Mot de passe' type='password'/>
            <p className='error'>{error}</p>
-           <Button name='se connecter'/>
+           <Button name='se connecter' onClick={()=>{}} color={'#060000'} radius={'0px'}/>
          </Form>
        </Formik>
             </div>
