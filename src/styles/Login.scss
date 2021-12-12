@@ -1,0 +1,37 @@
+.container_login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login_form {
+    height: 70vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 10px
+
+}
+
+.logo{
+    width: 142px;
+    height: 136px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.form{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.error{
+    color: red;
+}
